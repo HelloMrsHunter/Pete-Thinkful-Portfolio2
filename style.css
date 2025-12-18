@@ -6,8 +6,7 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
   background-color: #eae2b7;
-  text-align: center;
-  
+  text-align: center;  
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
@@ -20,37 +19,39 @@ h2 {
 h3 {
   font-family: "Playfair Display", Times, serif; font-size: medium; text-align: center
 }
-
 article {
   padding: 50px 0;
 }
-
 article div {
   text-align: center;
   width: 100%;
 }
-
 p {
   line-height: 1.5; text-align:left 
 }
-ul{ text-align: left ;}
-ol{ text-align: left ;}
+ul{ 
+  text-align: left ;
+}
+ol{ 
+  text-align: left ;
+}
 /* The div container constrains the content width within the main container to 600px */
 div {
   margin: auto;
   width: 600px;  
 }
 
-.image-circle {  display: block; 
-               margin: 0 auto;
-               border-radius: 50%; 
-               border: 2px solid #003049 }               
+.image-circle {  
+  display: block; 
+  margin: 0 auto;
+  border-radius: 50%; 
+  border: 2px solid #003049 
+}               
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
   #003049;
-
 }
 
 hr {
